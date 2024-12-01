@@ -1,0 +1,32 @@
+.view{
+    margin-left: 284px;
+    transition: all 0.4s ease-in-out;
+    background-color: white;
+    margin-top: 79px;
+    padding: 20px;
+    border-radius: 24px;
+    height: 100vh; 
+    margin-bottom: 20px;
+}
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+    display: none !important;
+}
+.tdhover {
+    opacity: 0; 
+}
+
+.trhover:hover .tdhover {
+    opacity: 1;
+    
+}    
+.table {
+    --bs-table-hover-bg: #ECF2FC !important;
+}

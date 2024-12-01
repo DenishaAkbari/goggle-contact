@@ -1,0 +1,33 @@
+.contactform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.addemail{
+    width: 457px;
+    background-color: #f0f4f9;
+    border: none;
+    padding: 10px;
+    color: #0B57D0;
+    border-radius: 50px;
+    margin-left: 40px;
+    padding-right: 20px;
+    margin-bottom: 20opx;
+}
+.save{
+    background-color: #0B57D0;
+    border-radius: 50px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-left: 27%;
+}
